@@ -35,10 +35,15 @@ const HeaderContentStyled = styled.div`
 display: grid;
 grid-template-columns: repeat(2,1fr);
 padding-top:3rem;
+
 .left-content{
     display: flex;
     align-items: center;
     padding-right: 3rem;
+
+        .white{
+            color:white;
+        }
 }
 
 h1{

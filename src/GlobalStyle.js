@@ -20,13 +20,23 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        background-color: var(---neutral-light);
+        background-color: var(--neutral-light);
         color:white;
         font-size: 1.2rem;
     }
 
     a{
         color: inherit;
+    }
+
+    p{
+        color: var(--leavender-secondary);
+        line-height: 1.9rem;
+    }
+    
+    .secondary-headeing{
+        font-size: 3rem;
+        color: var(--purple-primary);
     }
 `;
 

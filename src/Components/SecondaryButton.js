@@ -13,7 +13,7 @@ function SecondaryButton({name}) {
 
 const SecondaryButtonStyled = styled.button`
 background-color: var(--dark-primary);
-padding: .6rem 1.8rem;
+padding: 1rem 1.8rem;
 font-family: inherit;
 font-size: inherit;
 color:inherit;
