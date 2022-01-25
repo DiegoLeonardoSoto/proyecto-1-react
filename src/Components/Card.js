@@ -24,20 +24,21 @@ return (
         <div className="card-image-cont">
             <img src={card} alt="" />
         </div>
-            <div className="plan-con">
-                <img src={active} alt="" />
-                <img src={inactive} alt="" />
-            </div>
-            <div className="list-cont">
 
-            {
-            textList.map((text) =>  text[0] ? 
+        <div className="plan-con">
+            <img src={active} alt="" />
+            <img src={inactive} alt="" />
+        </div>
+
+        <div className="list-cont">
+            {//                    codition - if - else 
+            // textList.map((text) =>  text[0] ? () : ()
+            textList.map((text) =>  text[0] ?
             <p className="text-check" > <img src={check} alt="" /> {text[1]} </p> 
             : 
             <p className="text-checkDis" > <img src={checkDis} alt="" /> {text[1]} </p>)
             }
-            
-            </div>
+        </div>
 
     </CardStyled>
 );

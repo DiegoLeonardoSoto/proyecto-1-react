@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import CardSection from './Components/CardSection';
 import ChartSection from './Components/ChartSection';
+import FAQSection from './Components/FAQSection';
+import Footer from './Components/Footer';
 import Header from './Components/Header';
 import MessagingSection from './Components/MessagingSection';
 import PaymentSection from './Components/PaymentSection';
@@ -16,8 +18,10 @@ function App() {
           <ChartSection/>
           <MessagingSection/>
           <PaymentSection/>
+          <FAQSection/>
         </MainStyled>
-      </OuterLayout>  
+      </OuterLayout>
+      <Footer/>  
     </div>
   );
 }

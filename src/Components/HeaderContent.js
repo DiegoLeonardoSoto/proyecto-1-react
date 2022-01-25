@@ -70,6 +70,8 @@ h1{
         bottom: 10%;
         right: 0;
         left: auto;
+        animation: move2 5s infinite;
+        transition: all .4s ease-in-out;
     }
 
     .message1{
@@ -77,12 +79,44 @@ h1{
         top: 0;
         right: 0;
         left: auto;
+        animation: move 5s infinite;
+        transition: all .4s ease-in-out;
     }
 
     .message2{
         position: absolute;
         left: 0;
-        bottom:15%
+        bottom:15%;
+        transition: all .4s ease-in-out;
+        animation: move 5s infinite;
+        transition: all .4s ease-in-out;
+    }
+}
+
+//Header Animations
+.message1{
+    @keyframes move{
+        0%{
+            transform: translateY(0) rotate(0) scale(1) translateX(0);
+        }
+        50%{
+            transform: translateY(-10px) rotate(20deg) scale(1.1) translateX(10px);
+        }
+        100%{
+            transform: translateY(0) rotate(0deg) scale(1) translateX(0);
+        }
+    }
+
+    @keyframes move2{
+        0%{
+            transform: translateY(0) rotate(0) scale(1) translateX(0);
+        }
+        50%{
+            transform: translateY(-10px) rotate(60deg) scale(1.1) translateX(10px);
+        }
+        100%{
+            transform: translateY(0) rotate(0deg) scale(1) translateX(0);
+        }
     }
 }
 `;

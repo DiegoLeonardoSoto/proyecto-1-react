@@ -7,10 +7,10 @@ import Navigation from './Navigation';
 function Header() {
     return (
         <HeaderStyled>
-         <div className="header-content">
-             <Navigation/>
-             <HeaderContent/>
-         </div>
+        <div className="header-content">
+            <Navigation/>
+            <HeaderContent/>
+        </div>
         </HeaderStyled>
     )
 }

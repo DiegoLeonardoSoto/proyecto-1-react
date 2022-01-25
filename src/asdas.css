@@ -9,3 +9,10 @@
     grid-gap: 2rem;
 }
 
+p{
+    @keyframes identifier {
+        
+    }
+    animation: move 5s infinite;
+    transform: translateY();
+}
