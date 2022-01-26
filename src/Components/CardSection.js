@@ -35,6 +35,8 @@ const CardStyled = styled.section`
         .card-right{
             display: flex;
             justify-content: flex-end;
+
+;
         }
 
         .card-left{

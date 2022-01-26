@@ -43,6 +43,7 @@ const ChartStyled = styled.section`
     grid-template-columns: repeat(2, 1fr);
     .chart-left{
         width: 80%;
+    }
         .stats{
             img{
                 box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
